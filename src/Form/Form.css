@@ -1,0 +1,40 @@
+label input, label button {
+  margin-left: 15pt;
+  font-size: 15pt;
+  padding: 0 2pt;
+}
+
+.form__container {
+  width: 60vw;
+  margin: 20pt auto;
+  border: solid 2px lightblue;
+  display: flex;
+}
+
+.form__field {
+  text-align: left;
+  margin: 10px;
+  flex: 1 100%;
+}
+
+.buttons__container {
+  align-self: flex-end;
+  -ms-justify-self: flex-end;
+  justify-self: flex-end;
+  width:60pt;
+}
+
+.buttons__container button {
+  font-size: 15pt;
+}
+
+.color-picker__color {
+  width: 15pt;
+  height: 15px;
+  border:solid 1px #000;
+}
+
+.color-picker__picker {
+  position: absolute;
+  margin: 5pt 0;
+}
